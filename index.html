@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            background-image:url(https://img.wallpapersafari.com/desktop/1600/900/79/16/a9JbHw.jpg) ;
+           
+        }
+        .container {
+            max-width: 900px;
+            margin: 120px auto;
+            padding: 20px;
+            background-color:whitesmoke;
+            border-radius: 10px;
+           box-shadow: 0 0 10px rgba(19, 171, 118, 0.1); 
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+            
+              
+        }
+        .options input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Quiz Game</h1>
+        <div class="question">
+            <p>What is the capital of France?</p>
+            <form id="quizForm">
+                <label><input type="radio" name="question1" value="a"> Paris</label>
+                <label><input type="radio" name="question1" value="c"> Rome</label>
+                <label><input type="radio" name="question1" value="b"> London</label>
+                <label><input type="radio" name="question1" value="d"> Berlin</label>
+            </form>
+        </div>
+        <button >Submit</button>
+        
+    </div>
+
+</body>
+</html>
